@@ -106,6 +106,15 @@ We predict the stock price for the next day using the trained model.
    
 5. Results
 The script will display the actual and predicted stock prices and plot them for better visualization.
+   ```sh
+   Train MSE: 0.6011100765763535
+   Test MSE: 1.2201640730661958
+   Train R-squared: 0.998634006149385
+   Test R-squared: 0.9964225315968204
+   Predicted AMZN stock price for 2024-06-25: $187.77
+
+![Figure_1](https://github.com/himpar21/RealTimeStockLinearRegression/assets/95409033/bae84959-a889-40f3-ab7b-2b956cf20703)
+
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
