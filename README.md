@@ -17,7 +17,7 @@ This project demonstrates how to predict stock prices using a linear regression 
 
    ```sh
    git clone https://github.com/himpar21/RealTimeStockLinearRegression.git
-   cd real-time-stock-prediction
+   cd RealTimeStockLinearRegression
    
 2. Install required libraries:
 
