@@ -25,17 +25,25 @@ This project demonstrates how to predict stock prices using a linear regression 
     pip install yfinance pandas numpy scikit-learn matplotlib
 
 3. Usage
-Run the script:
+   
+   Run the script:
 
    ```sh
-    python stock_prediction.py
-  
-4. Input the company ticker symbol when prompted:
+   python rtsplinear.py
+   ```  
+   OR 
+   Run the streamlit file:
+
+   ```sh
+   streamlit run streamlitfile.py
+   ```
+
+5. Input the company ticker symbol when prompted:
 
    ```sh
       Enter the company ticker: AMZN
 
-5. The script will fetch historical stock data, train the model, evaluate it, and display the predicted stock price for the next day.
+6. The script will fetch historical stock data, train the model, evaluate it, and display the predicted stock price for the next day.
 
 ## Code Overview
 
@@ -104,7 +112,7 @@ We predict the stock price for the next day using the trained model.
     predicted_price = predict_future_price(days_ahead)
     print(f'Predicted {company} stock price for {datetime.date.today() + datetime.timedelta(days=days_ahead)}: ${predicted_price:.2f}')
    
-5. Results
+## Results
 The script will display the actual and predicted stock prices and plot them for better visualization.
    ```sh
    Train MSE: 0.6011100765763535
@@ -112,7 +120,7 @@ The script will display the actual and predicted stock prices and plot them for 
    Train R-squared: 0.998634006149385
    Test R-squared: 0.9964225315968204
    Predicted AMZN stock price for 2024-06-25: $187.77
-
+```
 ![Figure_1](https://github.com/himpar21/RealTimeStockLinearRegression/assets/95409033/bae84959-a889-40f3-ab7b-2b956cf20703)
 
 
